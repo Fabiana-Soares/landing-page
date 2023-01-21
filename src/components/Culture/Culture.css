@@ -1,0 +1,29 @@
+.cultura {
+    margin-bottom: 20px;
+    margin-right: 150px;
+    margin-left: 200px;
+    text-align: center;
+}
+.container-cultura {
+    width: 300px;
+	display: inline-block;
+    margin: 5px 0px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+}
+
+.container-cultura h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.link {
+    color: #1263be;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 150px;
+    margin-left: 350px;
+}

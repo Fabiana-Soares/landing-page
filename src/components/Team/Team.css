@@ -1,0 +1,96 @@
+.people {
+    background-color: rgb(238, 238, 238);
+}
+
+.content-video{
+  width: 50%;
+  justify-content: space-between;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.presentation {
+  width: 50%;
+  margin-bottom: 20px;
+  margin-top: 90px;
+  text-align: justify;
+  padding-left: 90px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  display: inline-block; 
+}
+
+.presentation h3{
+    color: gray;
+    margin: 0 0 9px 0;
+}
+
+.presentation p {
+    color: gray;
+}
+
+.ceo-name{
+    color: #daa922;
+    font-size: 1.2em;
+    margin: 0 0 9px 0;
+}
+
+.about-ceo {
+    color: #757573;
+    font-size: 15px;
+}
+
+.time {
+    margin-bottom: 30px;
+    margin-right: 150px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.content-time h3 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}
+
+.home-img {
+    position: relative;
+    margin: 8px 9px;
+    width: 200px;
+	display: inline-block;      
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: gray;
+}
+
+.home-img:hover .container {
+    opacity: 1;
+}
+
+.container p{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}

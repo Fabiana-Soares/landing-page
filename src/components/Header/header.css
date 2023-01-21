@@ -1,0 +1,46 @@
+.header {
+    text-align: center;
+}
+
+.imagem {
+    padding: 40px 0;
+    width: 100%;
+    background-image: url(/src/img/foto-header.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 400px;
+    font-family: Verdana, Helvetica, sans-serif;
+}
+
+.title-header {
+    color:white;
+    margin-top: 220px;
+    margin-right: 160px;
+    margin-left: 170px;
+    position: absolute;
+    font-size: 50px;
+}
+
+.content-about {
+    font-size: 15px;
+    color: gray;
+    text-align: justify;
+}
+
+.content-about-elo7 {
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.link {
+    color: #c06511;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 150px;
+    margin-left: 350px;
+    text-decoration: none;
+}
+
+
